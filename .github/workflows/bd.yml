@@ -1,16 +1,15 @@
-name: Release for Replugged
+name: "Build and deploy CSS for BetterDiscord"
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
+      - master
 
 jobs:
-  release:
-    name: Release
+  build:
+    name: Build CSS
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout theme
@@ -29,12 +28,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build and bundle theme into .asar
-        run: pnpm run build:rp
+      - name: Build CSS
+        run: pnpm run build:bd
 
-      - name: Release bundled asar, json, and theme.css
-        uses: ncipollo/release-action@v1
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          artifacts: "bundle/*, *.theme.css"
-          makeLatest: true
-          generateReleaseNotes: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deploy
+          publish_dir: "./"
