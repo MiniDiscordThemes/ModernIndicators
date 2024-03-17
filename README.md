@@ -1,4 +1,4 @@
-[banner]:           https://cdn.discordapp.com/attachments/1142305515439923260/1142321144666525696/banner.png
+[screenshot]:       https://minidiscordthemes.github.io/ModernIndicators/preview/demo.avif
 
 [discord]:          https://discord.gg/uy8nKQVatp
 
@@ -36,7 +36,7 @@
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-![Bubble Bar banner][banner]
+![Screenshot of Modern Indicators applied to Discord][screenshot]
 
 ## Installation
 
