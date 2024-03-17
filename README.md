@@ -1,4 +1,4 @@
-[screenshot]:       https://minidiscordthemes.github.io/ModernIndicators/preview/demo.avif
+[screenshot]:       https://i.imgur.com/66oPWvX.png
 
 [discord]:          https://discord.gg/uy8nKQVatp
 
@@ -35,6 +35,8 @@
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
+
+***A modern design for unread channel indicators.***
 
 ![Screenshot of Modern Indicators applied to Discord][screenshot]
 
