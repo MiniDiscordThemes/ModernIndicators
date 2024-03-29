@@ -1,8 +1,8 @@
 /* || Discovery */
-.sidebar_ded4b5 {
-    .categoryItem_b1be5c {
+.sidebar_e031be {
+    .categoryItem__0608f {
         margin-left: 0;
-        &.selectedCategoryItem__0bf4c .itemInner__9e755 {
+        &.selectedCategoryItem__3e361 .itemInner_eedb2b {
             border-color: var(--item-selected-indicator);
             background-color: var(--item-selected-background);
             &:hover {
@@ -12,7 +12,7 @@
                 color: var(--item-selected-icon);
             }
         }
-        .itemInner__9e755 {
+        .itemInner_eedb2b {
             padding-left: calc(16px - var(--indicator-border-size));
             border-radius: var(--indicator-rounding);
             border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
