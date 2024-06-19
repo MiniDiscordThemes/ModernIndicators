@@ -15,7 +15,7 @@
   "type": "module",
   "scripts": {
     "dev:rp": "replugged build theme --watch",
-    "build:rp": "replugged bundle theme",
+    "build:asar": "replugged bundle theme",
     "lint": "prettier ./scss --check",
     "lint:fix": "prettier ./scss --write --log-level warn",
     "release": "replugged release"
