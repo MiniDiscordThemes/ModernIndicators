@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Copy images
-        run: cp -r ./{preview} ./dist
+        run: cp -r ./{asset,README.md} ./dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
@@ -23,3 +23,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: deploy
           publish_dir: "./dist"
+          enable_jekyll: true
