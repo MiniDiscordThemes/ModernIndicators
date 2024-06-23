@@ -11,6 +11,11 @@
                 &:hover {
                     background-color: var(--indicator-hovered);
                 }
+                .actionIcon_f6f816 {
+                    path {
+                        fill: currentColor !important;
+                    }
+                }
             }
         }
 
@@ -27,7 +32,7 @@
                 &:hover {
                     background-color: var(--item-selected-background-hover);
                 }
-                .actionIcon_f6f816 {
+                svg {
                     color: var(--item-selected-icon);
                 }
                 .name_d8bfb3 {
@@ -43,7 +48,7 @@
                 &:hover {
                     background-color: var(--item-connected-background-hover);
                 }
-                .actionIcon_f6f816 {
+                svg {
                     color: var(--item-connected-icon);
                 }
                 .name_d8bfb3 {
@@ -75,7 +80,7 @@
                 &:hover {
                     background-color: var(--item-unread-background-hover);
                 }
-                .actionIcon_f6f816 {
+                svg {
                     color: var(--item-unread-icon);
                 }
                 .name_d8bfb3 {
