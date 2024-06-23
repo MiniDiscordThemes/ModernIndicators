@@ -1,59 +1,70 @@
-/* || Channels */
+// Channels
 .sidebar_a4d4d9 {
     .wrapper_d8bfb3 {
         margin-left: 0;
-        .link_d8bfb3 {
-            padding-left: calc(16px - var(--indicator-border-size));
-            border-radius: var(--indicator-rounding);
-            border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-            &:hover {
-                background-color: var(--indicator-hovered);
+
+        & {
+            .link_d8bfb3 {
+                padding-left: calc(16px - var(--indicator-border-size));
+                border-radius: var(--indicator-rounding);
+                border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+                &:hover {
+                    background-color: var(--indicator-hovered);
+                }
             }
         }
+
         &.typeThread_d8bfb3 {
             .link_d8bfb3 {
                 padding-left: calc(42px - var(--indicator-border-size));
             }
         }
-        &.modeSelected_d8bfb3 .link_d8bfb3 {
-            border-color: var(--item-selected-indicator);
-            background-color: var(--item-selected-background);
-            &:hover {
-                background-color: var(--item-selected-background-hover);
-            }
-            svg {
-                color: var(--item-selected-icon);
-            }
-            .name_d8bfb3 {
-                color: var(--text-active);
+
+        &.modeSelected_d8bfb3 {
+            .link_d8bfb3 {
+                border-color: var(--item-selected-indicator);
+                background-color: var(--item-selected-background);
+                &:hover {
+                    background-color: var(--item-selected-background-hover);
+                }
+                .actionIcon_f6f816 {
+                    color: var(--item-selected-icon);
+                }
+                .name_d8bfb3 {
+                    color: var(--text-active);
+                }
             }
         }
-        &.modeConnected_d8bfb3 .link_d8bfb3 {
-            border-color: var(--item-connected-indicator);
-            background-color: var(--item-connected-background);
-            &:hover {
-                background-color: var(--item-connected-background-hover);
-            }
-            svg {
-                color: var(--item-connected-icon);
-            }
-            .name_d8bfb3 {
-                color: var(--text-active);
-            }
-            .wrapper_a5bc92 {
-                color: var(--text-active);
-                background-color: var(--item-connected-background-hover);
-                .users_a5bc92 {
-                    background-color: unset;
-                }
-                .total_a5bc92 {
+
+        &.modeConnected_d8bfb3 {
+            .link_d8bfb3 {
+                border-color: var(--item-connected-indicator);
+                background-color: var(--item-connected-background);
+                &:hover {
                     background-color: var(--item-connected-background-hover);
-                    &::after {
-                        border-right-color: var(--item-connected-background-hover);
+                }
+                .actionIcon_f6f816 {
+                    color: var(--item-connected-icon);
+                }
+                .name_d8bfb3 {
+                    color: var(--text-active);
+                }
+                .wrapper_a5bc92 {
+                    color: var(--text-active);
+                    background-color: var(--item-connected-background-hover);
+                    .users_a5bc92 {
+                        background-color: unset;
+                    }
+                    .total_a5bc92 {
+                        background-color: var(--item-connected-background-hover);
+                        &::after {
+                            border-right-color: var(--item-connected-background-hover);
+                        }
                     }
                 }
             }
         }
+
         &.modeUnreadImportant_d8bfb3 {
             .unread_d8bfb3 {
                 display: none;
@@ -64,7 +75,7 @@
                 &:hover {
                     background-color: var(--item-unread-background-hover);
                 }
-                svg {
+                .actionIcon_f6f816 {
                     color: var(--item-unread-icon);
                 }
                 .name_d8bfb3 {
@@ -73,10 +84,12 @@
             }
         }
     }
-    // || Private Messages
+
+    // Private messages
     .channel_c91bad {
         margin-left: 0;
         border-radius: var(--indicator-rounding);
+
         .interactive_c91bad {
             width: 232px;
             padding-left: calc(8px - var(--indicator-border-size));
