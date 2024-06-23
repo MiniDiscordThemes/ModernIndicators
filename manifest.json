@@ -14,7 +14,7 @@
       "github": "LuckFire"
     }
   ],
-  "version": "2.4.1",
+  "version": "2.4.2",
   "updater": {
     "type": "store",
     "id": "dev.LuckFire.ModernIndicators"
